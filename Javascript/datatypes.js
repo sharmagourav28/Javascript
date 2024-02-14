@@ -27,3 +27,35 @@ console.log(typeof(islog));  // bool true and false
 
 console.log(typeof null);  // object
 console.log(typeof undefined);  // undefined
+
+
+const s = 100;
+const scv = 100.4;
+
+const islogg = false;
+const outside = null;
+let useremail;
+
+const id = Symbol('123');
+const andotjerif = Symbol('123')
+/*
+
+    Javascript Dynamic type
+
+ primitive data types (call by value)
+    7 types
+    string,number,bool,null,undefined,symbola and BigInt
+
+ non primitive data types(refernce types)
+    array,objects,functions
+*/
+
+const  hero = ['hej','jeje','eje'];
+let myobhj={
+    n:"gsf",
+    age:22,
+}
+
+const myfun = function(){
+    
+}
