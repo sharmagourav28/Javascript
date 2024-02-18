@@ -42,11 +42,11 @@ const andotjerif = Symbol('123')
 
     Javascript Dynamic type
 
- primitive data types (call by value)
+ primitive data types (call by value)  stck memory
     7 types
     string,number,bool,null,undefined,symbola and BigInt
 
- non primitive data types(refernce types)
+ non primitive data types(refernce types)  heap memory 
     array,objects,functions
 */
 
@@ -57,5 +57,5 @@ let myobhj={
 }
 
 const myfun = function(){
-    
+
 }
