@@ -1,0 +1,7 @@
+// while (condition) {
+    
+// }
+
+// while(){
+
+// }do()
