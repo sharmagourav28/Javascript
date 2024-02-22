@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thrusday</div>
+    </div>
+</body>
+<script>
+    const d =document.querySelector('.parent')
+    // console.log(d);
+    // console.log(d.children)
+    // console.log(d.children[1].innerHTML)
+
+    // for(let i = 0;i<d.children.length;i++){
+    //     console.log(d.children[i].innerHTML)
+    // }
+    // d.children[1].style.color = "Blue";
+    // console.log(d.firstElementChild)
+    // console.log(d.lastElementChild)
+
+
+    // const day1 = document.querySelector('.day')
+    // console.log(day1)
+    // console.log(day1.parentElement);
+    // console.log(day1.nextElementSibling);
+
+    console.log("Nodes",d.childNodes);
+</script>
+</html>
